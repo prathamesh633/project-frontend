@@ -20,8 +20,9 @@ pipeline {
                   sh '''
                       aws s3 cp --recursive dist/angular-frontend s3://prathameshsye3bucket633/
                  '''
-}
+                }
                 
             }
         }
     }
+}
